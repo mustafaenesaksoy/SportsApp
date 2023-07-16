@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#CCCCCC"
+    android:orientation="horizontal"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:id="@+id/teamPosition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="1"
+        android:layout_gravity="center"
+        android:layout_margin="2dp">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/teamImage"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_gravity="center"
+        android:layout_marginStart="2dp">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/teamName"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:textColor="@color/black"
+        android:text="Team Name"
+        android:layout_gravity="center"
+        android:layout_margin="2dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/teamMP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="MP"
+        android:layout_gravity="center"
+        android:layout_marginStart="35dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/teamW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="W"
+        android:layout_gravity="center"
+        android:layout_marginStart="25dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/teamL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="L"
+        android:layout_gravity="center"
+        android:layout_marginStart="25dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/teamT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="T"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/teamA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="A"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/teamP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="P"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp">
+    </TextView>
+
+
+</LinearLayout>

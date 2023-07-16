@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/newsFragment">
+
+    <fragment
+        android:id="@+id/fixtureFragment"
+        android:name="com.enesaksoy.sportsapp.view.FixtureFragment"
+        android:label="FixtureFragment" />
+    <fragment
+        android:id="@+id/tableFragment"
+        android:name="com.enesaksoy.sportsapp.view.TableFragment"
+        android:label="TableFragment" />
+    <fragment
+        android:id="@+id/introFragment"
+        android:name="com.enesaksoy.sportsapp.view.IntroFragment"
+        android:label="IntroFragment" >
+        <action
+            android:id="@+id/action_introFragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
+        <action
+            android:id="@+id/action_introFragment_to_signUpFragment"
+            app:destination="@id/signUpFragment" />
+        <action
+            android:id="@+id/action_introFragment_to_userFragment"
+            app:destination="@id/userFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="com.enesaksoy.sportsapp.view.NewsFragment"
+        android:label="NewsFragment" >
+        <action
+            android:id="@+id/action_newsFragment_to_newsDetailsFragment"
+            app:destination="@id/newsDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newsDetailsFragment"
+        android:name="com.enesaksoy.sportsapp.view.NewsDetailsFragment"
+        android:label="NewsDetailsFragment" />
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.enesaksoy.sportsapp.view.SignInFragment"
+        android:label="SignInFragment" >
+        <action
+            android:id="@+id/action_signInFragment_to_userFragment"
+            app:destination="@id/userFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.enesaksoy.sportsapp.view.SignUpFragment"
+        android:label="SignUpFragment" >
+        <action
+            android:id="@+id/action_signUpFragment_to_userFragment"
+            app:destination="@id/userFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/userFragment"
+        android:name="com.enesaksoy.sportsapp.view.UserFragment"
+        android:label="UserFragment" />
+</navigation>

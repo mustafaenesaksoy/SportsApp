@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/newsFragment" android:title="News" android:icon="@drawable/baseline_newspaper_24"></item>
+    <item android:id="@+id/fixtureFragment" android:title="Fixture" android:icon="@drawable/baseline_trending_up_24"></item>
+    <item android:id="@+id/tableFragment" android:title="ScoreBoard" android:icon="@drawable/baseline_table_rows_24"></item>
+    <item android:id="@+id/introFragment" android:title="User" android:icon="@drawable/baseline_person_24"></item>
+</menu>
